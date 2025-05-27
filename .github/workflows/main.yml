@@ -4,7 +4,7 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: runner
+    runs-on: windows-latest
 
     steps:
     - name: Download Ngrok
